@@ -1,5 +1,5 @@
 # generator-file-mount 
-> create an image and consequently mount it. 
+> create an image and consequently mount it. (linux only)
 
 ## Installation
 
@@ -18,7 +18,7 @@ yo file-mount
 
 This commands will create an image disk (`config.img`) in a specific format, and, create a folder `mnt`
 
-Run `yo file-mount:mount` to attempt to mount.
+Run `yo file-mount:mount` to attempt to mount. (to be run as root)
 
 ## Getting To Know Yeoman
 
